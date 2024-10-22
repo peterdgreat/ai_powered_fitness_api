@@ -10,4 +10,7 @@ class User < ApplicationRecord
   validates :gender, inclusion: { in: %w[male female other] }
   validates :fitness_level, inclusion: { in: %w[beginner intermediate advanced] }
   validates :goals, presence: true
+
+  # Associations
+  has_many :fitness_goals
 end
