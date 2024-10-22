@@ -4,4 +4,5 @@ class FitnessGoal < ApplicationRecord
 
   # Associations
   belongs_to :user
+  has_many :workouts
 end
