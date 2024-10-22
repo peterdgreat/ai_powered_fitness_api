@@ -8,4 +8,5 @@ class Workout < ApplicationRecord
 
   # Associations
   belongs_to :fitness_goal
+  has_many :user_workout_histories
 end

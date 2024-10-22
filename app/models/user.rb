@@ -13,4 +13,5 @@ class User < ApplicationRecord
 
   # Associations
   has_many :fitness_goals
+  has_many :user_workout_histories
 end
