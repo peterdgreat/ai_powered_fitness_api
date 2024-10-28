@@ -14,4 +14,9 @@ class User < ApplicationRecord
   # Associations
   has_many :fitness_goals
   has_many :user_workout_histories
+
+  # Method to get the workout recommendation service
+  def workout_recommendation_service
+    WorkoutRecommendationService.new(self)
+  end
 end

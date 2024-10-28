@@ -7,4 +7,13 @@ class UserWorkoutHistory < ApplicationRecord
   # Associations
   belongs_to :user
   belongs_to :workout
+
+  # Callback to improve workout plan after a new history is created
+  after_create :improve_user_workout_plan
+
+  private
+
+  def improve_user_workout_plan
+    user.workout_recommendation_service.improve_workout_plan
+  end
 end
