@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   resources :workouts do
     collection do
-      get 'recommendations',
+      get 'recommendations'
       get 'available_workouts'
     end
   end
