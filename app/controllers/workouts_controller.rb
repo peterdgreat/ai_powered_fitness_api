@@ -28,4 +28,30 @@ class WorkoutsController < ApplicationController
 
     render json: improved_plan  # Return the improved workout plan as JSON
   end
+
+  # Create a new workout
+  def create
+    workout = Workout.new(workout_params)
+    if workout.save
+      render json: workout, status: :created
+    else
+      render json: workout.errors, status: :unprocessable_entity
+    end
+  end
+
+  # Update an existing workout
+  def update
+    workout = Workout.find(params[:id])
+    if workout.update(workout_params)
+      render json: workout
+    else
+      render json: workout.errors, status: :unprocessable_entity
+    end
+  end
+
+  private
+
+  def workout_params
+    params.require(:workout).permit(:name, :workout_type, :duration, :intensity, :instructions, :days, :hours)
+  end
 end

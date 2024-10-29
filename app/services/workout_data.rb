@@ -10,6 +10,8 @@ class WorkoutData
         workout_type: 'Yoga',
         days: 3,
         hours: 1,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Warm-up: 10 mins of gentle stretching',
           'Yoga poses: 30 mins focusing on flexibility',
@@ -25,6 +27,8 @@ class WorkoutData
         workout_type: 'HIIT',
         days: 5,
         hours: 0.5,
+        height: 165,
+        weight: 60,
         daily_instructions: [
           'Warm-up: 5 mins of jumping jacks',
           'HIIT circuit: 20 mins alternating between burpees, squats, and push-ups',
@@ -40,6 +44,8 @@ class WorkoutData
         workout_type: 'Running',
         days: 6,
         hours: 2,
+        height: 180,
+        weight: 80,
         daily_instructions: [
           'Long run: 90 mins at a steady pace',
           'Interval training: 30 mins of sprinting and walking',
@@ -55,6 +61,8 @@ class WorkoutData
         workout_type: 'Dance',
         days: 2,
         hours: 1,
+        height: 170,
+        weight: 55,
         daily_instructions: [
           'Warm-up: 10 mins of light dancing',
           'Zumba routine: 40 mins of high-energy dance',
@@ -70,6 +78,8 @@ class WorkoutData
         workout_type: 'Strength',
         days: 4,
         hours: 1.5,
+        height: 178,
+        weight: 75,
         daily_instructions: [
           'Warm-up: 10 mins of light cardio',
           'Weightlifting: 60 mins focusing on compound lifts',
@@ -85,6 +95,8 @@ class WorkoutData
         workout_type: 'Cycling',
         days: 5,
         hours: 1,
+        height: 160,
+        weight: 60,
         daily_instructions: [
           'Warm-up: 10 mins of easy cycling',
           'Cycling: 40 mins at a moderate pace',
@@ -100,6 +112,8 @@ class WorkoutData
         workout_type: 'Pilates',
         days: 3,
         hours: 1,
+        height: 180,
+        weight: 70,
         daily_instructions: [
           'Warm-up: 10 mins of gentle stretching',
           'Pilates core exercises: 30 mins',
@@ -115,6 +129,8 @@ class WorkoutData
         workout_type: 'Martial Arts',
         days: 4,
         hours: 1,
+        height: 165,
+        weight: 55,
         daily_instructions: [
           'Warm-up: 10 mins of jumping rope',
           'Kickboxing routine: 40 mins of punches and kicks',
@@ -130,6 +146,8 @@ class WorkoutData
         workout_type: 'Walking',
         days: 5,
         hours: 0.5,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Walk at a comfortable pace for 30 mins',
           'Cool down: 5 mins of stretching'
@@ -144,6 +162,8 @@ class WorkoutData
         workout_type: 'CrossFit',
         days: 5,
         hours: 1,
+        height: 160,
+        weight: 55,
         daily_instructions: [
           'Warm-up: 10 mins of dynamic stretching',
           'CrossFit WOD: 40 mins of high-intensity workouts',
@@ -159,6 +179,8 @@ class WorkoutData
         workout_type: 'Running',
         days: 3,
         hours: 1,
+        height: 170,
+        weight: 60,
         daily_instructions: [
           'Warm-up: 5 mins of light jogging',
           'Run 5 km at a steady pace',
@@ -174,6 +196,8 @@ class WorkoutData
         workout_type: 'Yoga',
         days: 2,
         hours: 1,
+        height: 165,
+        weight: 60,
         daily_instructions: [
           'Warm-up: 10 mins of deep breathing',
           'Gentle yoga poses: 40 mins focusing on relaxation',
@@ -189,6 +213,8 @@ class WorkoutData
         workout_type: 'HIIT',
         days: 4,
         hours: 1,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Warm-up: 5 mins of jumping jacks',
           'HIIT circuit: 30 mins alternating between exercises',
@@ -204,6 +230,8 @@ class WorkoutData
         workout_type: 'Dance',
         days: 3,
         hours: 1,
+        height: 160,
+        weight: 55,
         daily_instructions: [
           'Warm-up: 10 mins of light dancing',
           'Dance routine: 40 mins of various styles',
@@ -219,6 +247,8 @@ class WorkoutData
         workout_type: 'Strength',
         days: 3,
         hours: 1,
+        height: 170,
+        weight: 60,
         daily_instructions: [
           'Warm-up: 10 mins of dynamic stretching',
           'Bodyweight circuit: 30 mins of push-ups, squats, and lunges',
@@ -234,6 +264,8 @@ class WorkoutData
         workout_type: 'Swimming',
         days: 4,
         hours: 1,
+        height: 160,
+        weight: 55,
         daily_instructions: [
           'Warm-up: 10 mins of easy swimming',
           'Swim laps: 40 mins at a moderate pace',
@@ -249,6 +281,8 @@ class WorkoutData
         workout_type: 'Strength',
         days: 4,
         hours: 1,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Warm-up: 10 mins of light cardio',
           'Circuit training: 30 mins of alternating exercises',
@@ -264,6 +298,8 @@ class WorkoutData
         workout_type: 'Walking',
         days: 5,
         hours: 0.5,
+        height: 165,
+        weight: 60,
         daily_instructions: [
           'Walk at a comfortable pace for 20 mins',
           'Cool down: 5 mins of stretching'
@@ -278,6 +314,8 @@ class WorkoutData
         workout_type: 'Strength',
         days: 4,
         hours: 1.5,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Warm-up: 10 mins of light cardio',
           'Powerlifting: 60 mins focusing on heavy lifts',
@@ -293,6 +331,8 @@ class WorkoutData
         workout_type: 'Running',
         days: 3,
         hours: 1,
+        height: 170,
+        weight: 60,
         daily_instructions: [
           'Warm-up: 5 mins of light jogging',
           'Trail run: 30 mins at a steady pace',
@@ -308,6 +348,8 @@ class WorkoutData
         workout_type: 'Flexibility',
         days: 3,
         hours: 0.5,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Stretching routine: 30 mins focusing on all major muscle groups',
           'Cool down: 5 mins of deep breathing'
@@ -322,6 +364,8 @@ class WorkoutData
         workout_type: 'Pilates',
         days: 3,
         hours: 1,
+        height: 165,
+        weight: 60,
         daily_instructions: [
           'Warm-up: 10 mins of gentle stretching',
           'Pilates core exercises: 30 mins',
@@ -337,6 +381,8 @@ class WorkoutData
         workout_type: 'Strength',
         days: 5,
         hours: 1.5,
+        height: 178,
+        weight: 75,
         daily_instructions: [
           'Warm-up: 10 mins of light cardio',
           'Weightlifting: 60 mins focusing on compound lifts',
@@ -352,6 +398,8 @@ class WorkoutData
         workout_type: 'Endurance',
         days: 6,
         hours: 2,
+        height: 160,
+        weight: 55,
         daily_instructions: [
           'Long run: 60 mins at a steady pace',
           'Interval training: 30 mins of sprinting and walking',
@@ -367,6 +415,8 @@ class WorkoutData
         workout_type: 'Yoga',
         days: 3,
         hours: 1,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Warm-up: 10 mins of gentle stretching',
           'Yoga poses: 30 mins focusing on flexibility',
@@ -382,6 +432,8 @@ class WorkoutData
         workout_type: 'Dance',
         days: 4,
         hours: 1,
+        height: 160,
+        weight: 55,
         daily_instructions: [
           'Warm-up: 10 mins of light dancing',
           'Dance cardio routine: 40 mins of high-energy dance',
@@ -397,6 +449,8 @@ class WorkoutData
         workout_type: 'Strength',
         days: 4,
         hours: 1.5,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Warm-up: 10 mins of light cardio',
           'Olympic lifts: 60 mins focusing on technique and strength',
@@ -412,6 +466,8 @@ class WorkoutData
         workout_type: 'Cycling',
         days: 3,
         hours: 0.5,
+        height: 160,
+        weight: 55,
         daily_instructions: [
           'Warm-up: 5 mins of easy cycling',
           'Cycling: 20 mins at a moderate pace',
@@ -427,6 +483,8 @@ class WorkoutData
         workout_type: 'Walking',
         days: 5,
         hours: 1,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Walk at a comfortable pace for 60 mins',
           'Cool down: 5 mins of stretching'
@@ -441,6 +499,8 @@ class WorkoutData
         workout_type: 'Strength',
         days: 4,
         hours: 1,
+        height: 165,
+        weight: 60,
         daily_instructions: [
           'Warm-up: 10 mins of dynamic stretching',
           'Strength training: 40 mins of high-intensity exercises',
@@ -456,6 +516,8 @@ class WorkoutData
         workout_type: 'Strength',
         days: 4,
         hours: 1,
+        height: 175,
+        weight: 70,
         daily_instructions: [
           'Warm-up: 10 mins of light cardio',
           'Circuit training: 30 mins of alternating exercises',
